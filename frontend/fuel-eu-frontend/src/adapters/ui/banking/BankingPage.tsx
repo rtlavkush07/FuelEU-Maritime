@@ -18,7 +18,7 @@ export function BankingPage() {
     const [year, setYear] = useState("");
     const [applyAmount, setApplyAmount] = useState("");
 
-    // If errors occur, show toast
+    // If errors occur, show toast on the screen
     useEffect(() => {
         if (cbError) toast.error(cbError);
         if (bankingError) toast.error(bankingError);
